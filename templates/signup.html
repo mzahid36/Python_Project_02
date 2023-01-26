@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign UP</title>
+	<link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+
+	<div class="signup">
+		<div class="form-box">
+		<h1 align="center">SignUp Here</h1>
+		<div class="input-group">
+			<form action="register" method="post">
+				{% csrf_token %}
+				<!-- <label for="fname">First name:</label><br> -->
+	  			<input type="text" id="fname" class="input-field" name="first_name" placeholder="First Name" required=""><br>
+
+	  			<!-- <label for="lname">Last name:</label><br> -->
+	  			<input type="text" id="lname" class="input-field" name="last_name" placeholder="Last Name" required=""><br>
+
+	  			<!-- <label for="username">User Name:</label><br> -->
+	  			<input type="text" id="username" class="input-field" name="username" placeholder="User Name" required=""><br>
+
+	  			<!-- <label for="email">Email:</label><br> -->
+	  			<input type="email" id="email" class="input-field" name="email" placeholder="Email" required=""><br>
+
+	  			<!-- <label for="password1">Enter a password:</label><br> -->
+	  			<input type="password" id="password1" class="input-field" name="password1" placeholder="Type a password" required=""><br>
+
+	  			<!-- <label for="password2">Confirm password:</label><br> -->
+	  			<input type="password" id="password2" class="input-field" name="password2" placeholder="Confirm password" required=""><br>
+
+	  			<input type="submit" class="btn">
+
+			</form>
+			<p> Already have an account? <a href="/login">Log in</a></p>
+		</div>
+
+	</div>
+</div>
+
+
+
+</body>
+</html>
