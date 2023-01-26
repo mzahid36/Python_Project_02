@@ -24,3 +24,5 @@
 + Code Editor :
     - VsCode (v1.74.3)
 
+**Project Guidelines :** The **"templates"** folder consist of all the HTML pages. **"static"** folder consist of the static files e.g. images and css files. Under the **"user"** folder, there are the actual developments codes presented.
+
