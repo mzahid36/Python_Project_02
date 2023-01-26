@@ -1,1 +1,26 @@
-# This file is for readme
+# Project Descriptions
+## Project 2: Login - Signup using Postgres[Django]
+
+**Short Descriptions :** This project consist of 3 HTML pages and 1 css file. In this particular project I have designed a registration and a login form using HTML and CSS. For this project I have implemented python and Django framework to develop the back-end.To store user information I have used postgres database system. User can login to the system using their pre-stored data.
+
+**Features :**
+- User can signup using their information.
+- Data will be stored in a database.
+- User can login to the system using their stored information.
+- User can logout from the system.
+- Error message will be shown at the time of Signup and Login.
++ While sign up:
+    - Username must be unique
+    - Email address have to be unique
+    - Password have to type twice and it will make sure passwords are matching each other.
+
+**Development Tools**
++ Core Language : 
+    - Python (v3.10.0)
++ Framework : 
+    - django (v4.1.5)
++ Database system : 
+    - postgresql (v11.8)
++ Code Editor :
+    - VsCode (v1.74.3)
+
