@@ -24,5 +24,5 @@
 + Code Editor :
     - VsCode (v1.74.3)
 
-**Project Documentation :** The **"templates"** folder consist of all the HTML pages. **"static"** folder consist of the static files e.g. images and css files. Under the **"user"** folder, there are the actual developments codes presented.
+**Project Documentation :** The **"templates"** folder consist of all the HTML pages. **"static"** folder consist of the static files e.g. images and css files. Under the **"user"** folder, there are the actual developments codes presented. **"requirements.txt"** contains all the infomation about dependencies as well as their version. To open my project please first install all the dependencies using "pip install -r requirements.txt" this command.
 
