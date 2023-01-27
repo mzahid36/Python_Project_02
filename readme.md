@@ -1,7 +1,7 @@
 # Project Descriptions
 ## Project 2: Login - Signup using Postgres[Django]
 
-**Short Descriptions :** This project consist of 3 HTML pages and 1 css file. In this particular project I have designed a registration and a login form using HTML and CSS. For this project I have implemented python and Django framework to develop the back-end.To store user information I have used postgres database system. User can login to the system using their pre-stored data.
+**Short Descriptions :** In this particular project I have designed a registration and a login form using HTML and CSS. For this project I have implemented python and Django framework to develop the back-end.To store user information I have used postgres database system. User can login to the system using their pre-stored data.
 
 **Features :**
 - User can signup using their information.
@@ -24,5 +24,5 @@
 + Code Editor :
     - VsCode (v1.74.3)
 
-**Project Guidelines :** The **"templates"** folder consist of all the HTML pages. **"static"** folder consist of the static files e.g. images and css files. Under the **"user"** folder, there are the actual developments codes presented.
+**Project Documentation :** The **"templates"** folder consist of all the HTML pages. **"static"** folder consist of the static files e.g. images and css files. Under the **"user"** folder, there are the actual developments codes presented.
 
